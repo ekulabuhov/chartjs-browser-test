@@ -12,7 +12,7 @@ var canvasWidth = 800,
 
 var myCtx = new CanvasRenderingContext2D(gl, canvasWidth, canvasHeight);
 myCtx
-  .loadFontAsync('node_modules/react-native-canvas/node_modules/pureimage/tests/fonts/SourceSansPro-Regular.ttf')
+  .loadFontAsync('fonts/SourceSansPro-Regular.ttf')
   .then(initChartJs);
 
 function initChartJs() {
