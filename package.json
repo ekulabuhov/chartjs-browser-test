@@ -6,7 +6,7 @@
     "start": "watchify src/main.js -t babelify -o bundle.js -v --debug&http-server -p 8086"
   },
   "dependencies": {
-    "chart.js": "2.4.0",
+    "chart.js": "2.6.0",
     "react-native-canvas": "https://github.com/ekulabuhov/react-native-canvas.git"
   },
   "devDependencies": {
